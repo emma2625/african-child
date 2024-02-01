@@ -1,0 +1,16 @@
+.hero-slider img {
+    height: 90vh;
+    object-fit: contain;
+    object-fit: cover;
+    object-position: bottom;
+    /* filter: brightness(70%) contrast(70%) sepia(50%) invert(100%); */
+}
+
+.hero-slider img.blur {
+    filter:  blur(0);
+}
+
+.hero-slider img.last {
+    object-position: top;
+    filter: brightness(80%);
+}
